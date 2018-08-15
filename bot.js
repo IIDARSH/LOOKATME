@@ -32,7 +32,6 @@ const sql = require("sqlite");
 ,spee={};
 
  
-
 const superagent = require("superagent")
 client.on('message' , async (message) => {
  if (message.content.startsWith(prefix + 'yn')) {
